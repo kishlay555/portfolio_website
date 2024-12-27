@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishlay porfolio</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="ri-close-fill"  onclick="closemenu()"></i>
+                </ul>
+                <i class="ri-menu-fill" onclick="openmunu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Kishlay</span><br> Kumar From Africa</h1>
+            </div>
+        </div>
+    </div>
+<!------------------------------------------------about-------------------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat cumque
+                         reprehenderit sapiente impedit, accusamus ad! Omnis accusantium unde ut, labore
+                        esse nostrum, repellendus deserunt soluta voluptas ipsum laborum. Blanditiis? Lorem
+                         ipsum dolor sit amet consectetur adipisicing elit. Hic, veniam iure eius eveniet vero
+                          quae doloremque dicta saepe repellendus, quasi ratione expedita ab quas laborum, fugiat
+                           culpa. Accusamus, blanditiis iusto.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>2021 - Current</span><br>UI/UX Design Traning at ET Institute</li>
+                                <li><span>2019 - 2021</span><br>Team lead at StartApp LLc.</li>
+                                <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                                <li><span>2016 - 2017</span><br>Intership at ekart eCommerce.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - 2024 Computer Application(BCA)</span><br>I have done My Bachelor degree from <br>
+                                Aryabhatta Knowledge University, Patna </li>
+                                <li><span>2016</span><br>MBA from MIT Mumbai</li>
+                                <li><span>2014</span><br>MBA from ISM Mumbai</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------------------------------------------services---------------------------------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="ri-code-s-slash-line"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum temporibus
+                             repellat quisquam sequi dolorem ipsum excepturi neque nihil eaque nam?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="ri-crop-line"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum temporibus
+                             repellat quisquam sequi dolorem ipsum excepturi neque nihil eaque nam?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="ri-app-store-line"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum temporibus
+                             repellat quisquam sequi dolorem ipsum excepturi neque nihil eaque nam?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!---------------------------------------------------portfolio------------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="ri-links-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="ri-links-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="ri-links-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------------------------------------------contact----------------------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="ri-send-plane-fill"></i>singhkishlayssn55526@gmail.com</p>
+                <p><i class="ri-phone-fill"></i>9156879940</p>
+                <div class="social-icons">
+                    <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                    <a href=""><i class="ri-twitter-x-line"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+                <a href="images/Kishlayresume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; Kishlay.<i class="ri-poker-hearts-fill"></i></p>
+    </div>
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
